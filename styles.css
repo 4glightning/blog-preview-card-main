@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, sans-serif;
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the body take the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.text-card {
+    margin-top: 20px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 2px 5px; /* Optional: Adjust padding for a tighter fit */
+    border-radius: 5%; /* Keeps rounded corners */
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.illustration{
+    border-radius: 5%;
+}   
+
+.author{
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.icon {
+    width: 30px; /* Prevent scaling down */
+    height: 30px; /* Maintain aspect ratio */
+    padding-right: 10px;
+
+}
+
+h2{
+    font-size: 24px;
+    text-align: left;
+    line-height: 0;
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+    color: hsl(0, 0%, 7%)
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
