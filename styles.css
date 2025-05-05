@@ -1,3 +1,7 @@
+html {
+    font-size: 100%; /* Default: 16px */
+}
+
 body{
     background-color: hsl(47, 88%, 63%);
     font-family: Figtree, sans-serif;
@@ -6,6 +10,7 @@ body{
     align-items: center; /* Center vertically */
     height: 100vh; /* Make the body take the full viewport height */
     margin: 0; /* Remove default margin */
+    font-size: 1rem; /* 16px */
 }
 
 .card{
@@ -27,6 +32,7 @@ body{
     width: 70px;
     text-align: center;
     font-weight: bold;
+    font-size: 0.875rem; /* 14px */
 }
 
 .illustration{
@@ -48,7 +54,7 @@ body{
 }
 
 h2{
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     text-align: left;
     line-height: 0;
     transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for hover effect */
@@ -60,7 +66,7 @@ h2:hover {
 }
 
 p{
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     text-align: left;
     color: hsl(0, 0%, 7%)
 }
