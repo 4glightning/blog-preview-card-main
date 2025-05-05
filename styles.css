@@ -51,6 +51,12 @@ h2{
     font-size: 24px;
     text-align: left;
     line-height: 0;
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%); /* Change text color on hover */
 }
 
 p{
