@@ -22,6 +22,8 @@ body{
     display: flex;
     flex-direction: column;
     width: 300px;
+    border: 1px solid black; /* Add a black border */
+
 }
 
 .text-card {
